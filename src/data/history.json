@@ -1,0 +1,29 @@
+[
+    {
+      "role": "Game Developer",
+      "organisation": "Personal Project",
+      "startDate": "Sept, 2022",
+      "endDate": "Present",
+      "experiences": ["Built a 2D game in Unity with C#", "Designed intuitive UI elements to enhance the user experience"],
+      "imageSrc": "skills/unity.png"
+    },
+    {
+      "role": "Full-Stack Developer",
+      "organisation": "Personal Project",
+      "startDate": "Aug, 2021",
+      "endDate": "Aug, 2022",
+      "experiences": ["Developed using Java, HTML, CSS, and JavaScript", "Integrated SQL for data storage"],
+      "imageSrc": "skills/java.png"
+    },
+    {
+      "role": "Frontend Developer",
+      "organisation": "Personal Project",
+      "startDate": "Apr, 2020",
+      "endDate": "Jun, 2020",
+      "experiences": [
+        "Created with ReactJS and JSON packages",
+        "Showcased personal projects and skills"
+      ],
+      "imageSrc": "skills/react.png"
+    }
+  ]

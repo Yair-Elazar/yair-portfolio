@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Blackjack Game",
+    "imageSrc": "projects/blackjackImage.png",
+    "description": "A multiplayer Blackjack game for PC and mobile built with Unity and C#, developed in collaboration with a study partner.",
+    "skills": ["C#", "Unity", "SQLite"],
+    "demo": "https://www.example.com",  
+    "source": "https://github.com/Yair-Elazar/Blackjack_Game"
+  },
+  {
+    "title": "DoIt - Task Manager",
+    "imageSrc": "projects/toDoListImage.png",
+    "description": "A full-stack task management web application developed with Java Spring Boot, using HTML, CSS and JS on the frontend.",
+    "skills": ["Java", "Spring", "HTML", "CSS", "JavaScript"],
+    "demo": "https://www.example.com",  
+    "source": "https://github.com/Yair-Elazar/doit-backend"
+  },
+  {
+    "title": "My Portfolio",
+    "imageSrc": "projects/project.png",
+    "description": "My personal portfolio website built with React, showcasing my projects and contact details.",
+    "skills": ["React", "CSS", "HTML"],
+    "demo": "https://yairelazar-portfolio.netlify.app",  
+    "source": "https://github.com/Yair-Elazar/portfolio"
+  }
+]

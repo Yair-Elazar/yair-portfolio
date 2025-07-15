@@ -1,33 +1,35 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: transparent; /* רקע שקוף, נשען על הרקע הגלובלי */
+  min-height: 100vh;
+  color: #e0e0e0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: transparent; /* הסר את הרקע הכהה המקורי */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(12px + 1.5vmin);
+  color: #00ffa3; /* צבע טקסט ניאוני */
+  padding: 20px;
 }
 
+/* כפתורים/קישורים עם צבע ניאוני */
 .App-link {
-  color: #61dafb;
+  color: #00bfff;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
+.App-link:hover {
+  color: #00ffa3;
+}
+
+/* לוגו או אלמנטים שמסתובבים נשארים אם תרצה */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
