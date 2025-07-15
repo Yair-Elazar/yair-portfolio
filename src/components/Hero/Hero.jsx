@@ -19,7 +19,7 @@ export const Hero = () => {
       </div>
       <img
   src="assets/hero/heroImage2.png"
-  alt="Hero image of me"
+  alt="Portrait"
   className={styles.heroImg}
 />
 
