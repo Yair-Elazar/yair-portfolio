@@ -15,13 +15,16 @@ export const Contact = () => {
         </li>
         <li className={styles.link}>
           <img src="/assets/contact/linkedinIcon.png" alt="LinkedIn Icon" />
-          <a href="https://www.linkedin.com">linkedin.com/in/your-profile</a>
+          <a href="https://www.linkedin.com/in/yair-elazar-696267375/">linkedin.com/Yair-Elazar</a>
         </li>
         <li className={styles.link}>
           <img src="/assets/contact/githubIcon.png" alt="GitHub Icon" />
           <a href="https://github.com/Yair-Elazar">github.com/Yair-Elazar</a>
         </li>
       </ul>
+      <p className={styles.credit}>
+        © 2025 Yair Elazar | Built with React
+      </p>
     </footer>
   );
 };
